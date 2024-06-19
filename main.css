@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .grid-wrapper {
@@ -51,6 +51,11 @@ body {
   gap: 10px;
 }
 
+.category-item img {
+  height: 200px;
+  object-fit: contain;
+}
+
 .category-title {
   font-size: 20px;
   text-transform: uppercase;
@@ -63,4 +68,35 @@ body {
   cursor: pointer;
   padding: 10px 15px;
   font-size: 14px;
+}
+
+.product-wrapper {
+  background-color: white;
+  border: 1px solid gray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.product-image {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.product-price {
+  color: rgb(55, 55, 156);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.glide-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
