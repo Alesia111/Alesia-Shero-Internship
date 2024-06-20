@@ -25,24 +25,29 @@ body {
   object-fit: cover;
 }
 
-.one {
+.col-one {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
 }
 
-.two {
+.col-two {
   grid-column: 3;
   grid-row: 1;
+}
+
+.col-three {
+  grid-column: 3;
+  grid-row: 2;
 }
 
 .bottom-section {
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 30px;
+  gap: 40px;
 }
 
 .category-item {

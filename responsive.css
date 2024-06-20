@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .col-one {
+    grid-column: 1 / 4;
+    grid-row: 1;
+  }
+
+  .col-two {
+    grid-column: 1 / 4;
+    grid-row: 2;
+  }
+
+  .col-three {
+    grid-column: 1 / 4;
+    grid-row: 3;
+  }
+}
